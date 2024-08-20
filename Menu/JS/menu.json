@@ -1,0 +1,145 @@
+
+{
+    "entradas": [
+      {
+        "nombre": "Arepa",
+        "precio": "5,000",
+        "ingredientes": "Maíz, queso, mantequilla",
+        "calificacion": "★★★★☆",
+        "imagen": "./IMG/Arepa.png",
+        "descuento": "15% OFF"
+      },
+      {
+        "nombre": "Empanada",
+        "precio": "2,000",
+        "ingredientes": "Masa de maíz, carne, papa",
+        "calificacion": "★★★★☆",
+        "imagen": "./IMG/Empanada.png"
+      },
+      {
+        "nombre": "Patacones",
+        "precio": "4,000",
+        "ingredientes": "Plátano verde, sal, aceite",
+        "calificacion": "★★★★☆",
+        "imagen": "./IMG/Patacones.png",
+        "descuento": "10% OFF"
+      },
+      {
+        "nombre": "Carimañola",
+        "precio": "3,500",
+        "ingredientes": "Yuca, carne, queso",
+        "calificacion": "★★★★☆",
+        "imagen": "./IMG/Carimañola.png"
+      },
+      {
+        "nombre": "Aborrajado",
+        "precio": "5,000",
+        "ingredientes": "Plátano maduro, queso, bocadillo",
+        "calificacion": "★★★★★",
+        "imagen": "./IMG/Aborrajado.png",
+        "descuento": "20% OFF"
+      },
+      {
+        "nombre": "Ceviche de Camarones",
+        "precio": "10,000",
+        "ingredientes": "Camarones, limón, cebolla, cilantro",
+        "calificacion": "★★★★★",
+        "imagen": "./IMG/Ceviche_de_Camarones.png"
+      }
+    ],
+    "platosPrincipales": [
+      {
+        "nombre": "Bandeja Paisa",
+        "precio": "20,000",
+        "ingredientes": "Frijoles, arroz, carne molida, chicharrón",
+        "calificacion": "★★★★★",
+        "imagen": "./IMG/bandeja-paisa.jpg",
+        "descuento": "10% OFF"
+      },
+      {
+        "nombre": "Ajiaco",
+        "precio": "18,000",
+        "ingredientes": "Pollo, papa, maíz, crema",
+        "calificacion": "★★★★★",
+        "imagen": "./IMG/ajiaco.jpg"
+      },
+      {
+        "nombre": "Sancocho",
+        "precio": "15,000",
+        "ingredientes": "Pollo o carne, yuca, plátano, papa, mazorca",
+        "calificacion": "★★★★☆",
+        "imagen": "./IMG/Sancocho.jpg",
+        "descuento": "15% OFF"
+      },
+      {
+        "nombre": "Tamales",
+        "precio": "10,000",
+        "ingredientes": "Masa de maíz, carne de cerdo, pollo, vegetales",
+        "calificacion": "★★★★☆",
+        "imagen": "./IMG/Tamales.jpg"
+      },
+      {
+        "nombre": "Lechona",
+        "precio": "22,000",
+        "ingredientes": "Cerdo, arroz, arvejas, especias",
+        "calificacion": "★★★★★",
+        "imagen": "./IMG/Lechona.jpg",
+        "descuento": "5% OFF"
+      },
+      {
+        "nombre": "Cazuela de Mariscos",
+        "precio": "25,000",
+        "ingredientes": "Camarones, pulpo, calamares, leche de coco",
+        "calificacion": "★★★★★",
+        "imagen": "./IMG/Cazuela_de_Mariscos.jpg",
+        "descuento": "10% OFF"
+      }
+    ],
+    "postres": [
+      {
+        "nombre": "Arroz con Leche",
+        "precio": "8,000",
+        "ingredientes": "Arroz, leche, canela, azúcar",
+        "calificacion": "★★★★☆",
+        "imagen": "./IMG/arroz-con-leche.jpg"
+      },
+      {
+        "nombre": "Brevas con Arequipe",
+        "precio": "6,000",
+        "ingredientes": "Brevas, arequipe",
+        "calificacion": "★★★★☆",
+        "imagen": "./IMG/brevas.jpg",
+        "descuento": "10% OFF"
+      },
+      {
+        "nombre": "Merengón de Fresas",
+        "precio": "7,000",
+        "ingredientes": "Merengue, fresas, crema chantilly",
+        "calificacion": "★★★★☆",
+        "imagen": "./IMG/merengon.jpg"
+      },
+      {
+        "nombre": "Natilla",
+        "precio": "5,000",
+        "ingredientes": "Leche, panela, fécula de maíz, canela",
+        "calificacion": "★★★★☆",
+        "imagen": "./IMG/natilla.jpg"
+      },
+      {
+        "nombre": "Obleas con Arequipe",
+        "precio": "4,000",
+        "ingredientes": "Obleas, arequipe, queso rallado, mora",
+        "calificacion": "★★★★☆",
+        "imagen": "./IMG/obleas.jpg",
+        "descuento": "10% OFF"
+      },
+      {
+        "nombre": "Milhoja",
+        "precio": "6,500",
+        "ingredientes": "Hojaldre, crema pastelera, arequipe",
+        "calificacion": "★★★★★",
+        "imagen": "./IMG/milhoja.jpg"
+      }
+    ]
+  }
+  
