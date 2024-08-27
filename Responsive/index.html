@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnología y Computadores</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <span class="logo-icon">💻</span>
+            <span>TecnoCom</span>
+        </div>
+        <nav class="nav-links" id="navLinks">
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">Servicios</a>
+            <a href="#">Blog</a>
+            <a href="#">Contacto</a>
+            <a href="#">Nosotros</a>
+        </nav>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </header>
+
+    <section class="hero">
+        <h1>Bienvenido a TecnoCom</h1>
+        <p>Descubre lo último en tecnología y componentes para computadores. Encuentra soluciones eficientes para
+            mejorar el rendimiento de tus equipos.</p>
+        <a href="#" class="cta-button">Explorar Productos</a>
+    </section>
+
+    <div class="info-boxes">
+        <div class="info-box">
+            <h3>Procesadores</h3>
+            <p>Explora las mejores opciones de procesadores AMD e Intel para todo tipo de tareas, desde juegos hasta
+                edición de video.</p>
+        </div>
+        <div class="info-box">
+            <h3>Tarjetas Gráficas</h3>
+            <p>Encuentra tarjetas gráficas de alta calidad que ofrecen un rendimiento superior en juegos y aplicaciones
+                profesionales.</p>
+        </div>
+        <div class="info-box">
+            <h3>Memoria RAM</h3>
+            <p>Optimiza la velocidad de tu computadora con módulos de RAM de última generación y amplia capacidad.</p>
+        </div>
+        <div class="info-box">
+            <h3>Almacenamiento</h3>
+            <p>Descubre nuestras opciones de SSD y discos duros que ofrecen velocidad y fiabilidad en el almacenamiento
+                de datos.</p>
+        </div>
+    </div>
+
+    <section class="info-comp">
+        <div class="content-section">
+            <div class="text-content">
+                <h2>Procesadores Intel de 13ª Generación</h2>
+                <p>La nueva generación de procesadores Intel ofrece un rendimiento sin igual. Ideales para gaming,
+                    diseño y tareas exigentes. Conoce las opciones desde Intel Core i5 hasta i9.</p>
+                <a href="#" class="cta-button">Ver Detalles</a>
+            </div>
+            <div class="image-content">
+                <img src="./IMG/procesador-intel.jpg" alt="Procesador Intel de 13ª Generación">
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="text-content">
+                <h2>Tarjetas Gráficas NVIDIA RTX Serie 40</h2>
+                <p>Las tarjetas gráficas NVIDIA RTX Serie 40 ofrecen trazado de rayos en tiempo real y rendimiento mejorado. Perfectas para jugadores y creadores de contenido.</p>
+                <a href="#" class="cta-button">Ver Detalles</a>
+            </div>
+            <div class="image-content">
+                <img src="./IMG/nvidia-rtx.jpg" alt="Tarjeta Gráfica NVIDIA RTX Serie 40">
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="text-content">
+                <h2>Memoria RAM DDR5</h2>
+                <p>La memoria RAM DDR5 es la última innovación en velocidad y capacidad. Aumenta el rendimiento de tu equipo con la tecnología más avanzada.</p>
+                <a href="#" class="cta-button">Ver Detalles</a>
+            </div>
+            <div class="image-content">
+                <img src="./IMG/ram-ddr5.jpg" alt="Memoria RAM DDR5">
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function toggleMenu() {
+            var navLinks = document.getElementById("navLinks");
+            navLinks.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
